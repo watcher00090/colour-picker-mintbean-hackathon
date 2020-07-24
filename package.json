@@ -8,11 +8,16 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
     "color-scheme": "^1.0.1",
+    "framework7-react": "^5.7.10",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.14.3",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-color": "^2.18.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "spectrum-colorpicker": "^1.8.1",
+    "spectrum-colorpicker2": "^2.0.0",
     "tinycolor": "0.0.1",
     "tinycolor2": "^1.4.1"
   },
@@ -20,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "stop": "react-scripts stop",
+    "eject": "react-scripts eject"    
   },
   "eslintConfig": {
     "extends": "react-app"
