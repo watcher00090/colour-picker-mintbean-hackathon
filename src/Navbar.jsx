@@ -4,7 +4,7 @@ import { Navbar, Form, Nav, FormControl, NavDropdown, Popover } from "react-boot
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Button from 'react-bootstrap/Button';
 //import spectrum from "spectrum-colorpicker2";
-import $ from "jquery";
+import $, { ready } from "jquery";
 import ColorWheelPicker from "./ColorWheelPicker.js";
 import * as FlexiColorPicker from "./colorpicker.js"
 
@@ -71,9 +71,9 @@ export default function Settings({
     <Popover id="popover-basic">
       <Popover.Title>Pick a color!</Popover.Title>
       <Popover.Content>
-        <input id="color-picker" defaultValue='#276cb8' />
-        <div id="picker">Does this work?</div>
-        <div id="slide">Does this work?</div>
+        <div id="picker"></div>
+        <div id="slide"></div>
+        <input id="hex-displayer"></input>
       </Popover.Content>
       <ColorWheelPicker></ColorWheelPicker>
     </Popover>
