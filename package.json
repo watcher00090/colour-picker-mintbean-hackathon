@@ -22,11 +22,11 @@
     "tinycolor2": "^1.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "stop": "react-scripts stop",
-    "eject": "react-scripts eject"    
+    "start": "npm start",
+    "build": "npm build",
+    "test": "npm test",
+    "stop": "npm stop",
+    "eject": "npm eject"    
   },
   "eslintConfig": {
     "extends": "react-app"
