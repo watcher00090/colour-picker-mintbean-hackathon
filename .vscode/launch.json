@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "npm start",
+            "command": "set NODE_OPTIONS=--openssl-legacy-provider; $env:NODE_OPTIONS=\"--openssl-legacy-provider\"; npm start",
             "name": "Run npm start",
             "request": "launch",
             "type": "node-terminal"
